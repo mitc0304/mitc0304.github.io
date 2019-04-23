@@ -1,0 +1,191 @@
+body {
+  background-color: #1a1a1a;
+}
+
+h1 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 50;
+  color: #ddd2d2;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+main {
+  clear: both;
+}
+
+li {
+  display: inline;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 50;
+  color: #ddd2d2;
+  padding-right: 50px;
+}
+
+.parallax-window {
+  display: block;
+  margin: auto;
+  min-height: 450px;
+  background: transparent;
+}
+
+section {
+  background-color: white;
+  margin: -8px;
+  padding: 10px;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+  border: none;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.2rem;
+  color: black;
+  padding-bottom: 2px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#active {
+  border-bottom: 2px solid black;
+}
+
+p {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  color: black;
+  padding-bottom: 2px;
+}
+
+article {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 200px;
+}
+
+h2 {
+  width: 100%;
+  padding-left: 50px;
+}
+
+img {
+  padding: 20px;
+}
+
+/* p {
+  width: 30%;
+  padding: 50px 20px 0 20px;
+} */
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ddd2d2;
+}
+
+a:hover {
+  border-bottom: 1px solid #ddd2d2;
+}
+
+#about, #contact {
+  background-color: #1a1a1a;
+}
+
+#resume {
+  padding-bottom: 40px;
+  clear: both;
+}
+
+.whiteText {
+  color: #ddd2d2;
+  margin-left: 10px;
+  padding: 0 0 5px 0;
+  margin-right: 0;
+}
+
+.bio-text {
+  width: 50%;
+  float: left;
+}
+
+.bio-selfie {
+  width: 50%;
+  float: right;
+}
+
+.social-media {
+  padding-left: 80px;
+}
+
+.aboutTitle {
+  color: #ddd2d2;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 50;
+}
+
+i {
+  padding: 0 20px 0 20px;
+}
+
+#resumeTitle {
+  color: #1a1a1a !important;
+  font-family: 'Heebo', sans-serif !important;
+  font-weight: 50;
+}
+
+#contactTitle {
+  color: #ddd2d2 !important;
+  font-family: 'Heebo', sans-serif !important;
+  font-weight: 50;
+}
+
+h3 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: bold;
+  padding-left: 80px;
+}
+
+span {
+  font-family: 'Heebo', sans-serif;
+  padding-left: 100px;
+  margin-left: 20px;
+  width: 80%;
+  display: block;
+}
+
+footer {
+  text-align: right;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #696969;
+}
+
+footer span {
+  padding: 0 0 5px 0;
+  font-weight: bold;
+  position: relative;
+  transform: translateX(120px);
+}
